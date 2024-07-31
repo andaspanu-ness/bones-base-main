@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es2016",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "jsx": "react",
+        "declaration": true,
+        "declarationMap": true,
+        "paths": {
+            "@mui/*": ["node_modules/@mui/*"]
+        }
+    }
+}

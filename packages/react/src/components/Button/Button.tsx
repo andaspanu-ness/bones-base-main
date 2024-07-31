@@ -4,10 +4,10 @@ import Icons, { IconNames } from '../../../../../shared/icons/Icons';
 import './button.scss';
 
 type ButtonProps = React.HTMLProps<HTMLButtonElement> & {
-    showRightIcon: boolean;
-    leftDivider: boolean;
-    rightDivider: boolean;
-    showLeftIcon: boolean;
+    showRightIcon?: boolean;
+    leftDivider?: boolean;
+    rightDivider?: boolean;
+    showLeftIcon?: boolean;
     leftIcon?: IconNames;
     rightIcon?: IconNames;
     children: ReactNode;
