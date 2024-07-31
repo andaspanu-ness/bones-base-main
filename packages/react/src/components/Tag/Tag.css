@@ -6,12 +6,12 @@
     border-radius: var(--bones-base-spacing-space-2);
     display: inline-flex;
     gap: var(--bones-base-spacing-space-0);
-    padding: var(--bones-base-spacing-space-0) var(--bones-base-spacing-space-1) var(--bones-base-spacing-space-0)
-      var(--bones-base-spacing-space-1);
+    padding: var(--bones-base-spacing-space-0) var(--bones-base-spacing-space-1)
+        var(--bones-base-spacing-space-0) var(--bones-base-spacing-space-1);
     position: relative;
-  }
-  
-  .tag .base-avatar {
+}
+
+.tag .base-avatar {
     background-color: #afb8c1;
     border: 1px solid;
     border-color: #6e7781;
@@ -19,9 +19,9 @@
     height: var(--bones-base-spacing-space-4);
     position: relative;
     width: var(--bones-base-spacing-space-4);
-  }
-  
-  .tag .face-wrapper {
+}
+
+.tag .face-wrapper {
     align-items: center;
     display: flex;
     height: 11px;
@@ -30,39 +30,40 @@
     position: relative;
     top: 3px;
     width: 11px;
-  }
-  
-  .tag .face-instance {
+}
+
+.tag .face-instance {
     align-self: stretch !important;
     flex: 1 !important;
     flex-grow: 1 !important;
     position: relative !important;
-  }
-  
-  .tag .icon-instance-node {
+}
+
+.tag .icon-instance-node {
     height: 12px !important;
     position: relative !important;
     width: 12px !important;
-  }
-  
-  .tag .placeholder {
+}
+
+.tag .placeholder {
     align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
     gap: var(--bones-base-spacing-space-1);
-    padding: 0px var(--bones-base-spacing-space-0) 0px var(--bones-base-spacing-space-0);
+    padding: 0px var(--bones-base-spacing-space-0) 0px
+        var(--bones-base-spacing-space-0);
     position: relative;
-  }
-  
-  .tag .status {
+}
+
+.tag .status {
     background-color: #6b7280;
     border-radius: 999px;
     height: 6px;
     position: relative;
     width: 6px;
-  }
-  
-  .tag .text-wrapper {
+}
+
+.tag .text-wrapper {
     color: #6b7280;
     font-family: var(--small-font-family);
     font-size: var(--small-font-size);
@@ -73,9 +74,9 @@
     margin-top: -1px;
     position: relative;
     width: fit-content;
-  }
-  
-  .tag .close-icon {
+}
+
+.tag .close-icon {
     align-items: center;
     background-color: #d1d5db;
     border-radius: 999px;
@@ -84,11 +85,10 @@
     justify-content: center;
     position: relative;
     width: var(--bones-base-spacing-space-3);
-  }
-  
-  .tag .close-instance {
+}
+
+.tag .close-instance {
     height: 8px !important;
     position: relative !important;
     width: 8px !important;
-  }
-  
+}

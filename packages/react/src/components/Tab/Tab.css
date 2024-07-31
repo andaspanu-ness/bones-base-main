@@ -9,48 +9,48 @@
     justify-content: center;
     position: relative;
     width: 326px;
-  }
-  
-  .normal-tab .indicator-bottom {
+}
+
+.normal-tab .indicator-bottom {
     background-color: var(--bones-base-color-grey-500);
     height: var(--bones-base-spacing-space-0);
     left: 0;
     position: absolute;
     top: 42px;
     width: 324px;
-  }
-  
-  .normal-tab .state-layer {
+}
+
+.normal-tab .state-layer {
     align-items: center;
     align-self: stretch;
     display: flex;
     flex: 0 0 auto;
     justify-content: space-between;
-    padding: var(--bones-base-spacing-space-3) var(--bones-base-spacing-space-4) var(--bones-base-spacing-space-3)
-      var(--bones-base-spacing-space-4);
+    padding: var(--bones-base-spacing-space-3) var(--bones-base-spacing-space-4)
+        var(--bones-base-spacing-space-3) var(--bones-base-spacing-space-4);
     position: relative;
     width: 100%;
-  }
-  
-  .normal-tab .tab-contents {
+}
+
+.normal-tab .tab-contents {
     align-items: center;
     display: flex;
     flex: 1;
     flex-grow: 1;
     gap: 4px;
     position: relative;
-  }
-  
-  .normal-tab .icon-and-label {
+}
+
+.normal-tab .icon-and-label {
     align-items: center;
     display: flex;
     flex: 1;
     flex-grow: 1;
     gap: var(--bones-base-spacing-space-2);
     position: relative;
-  }
-  
-  .normal-tab .label {
+}
+
+.normal-tab .label {
     color: var(--bones-base-color-black);
     flex: 1;
     font-family: var(--label-font-family);
@@ -62,5 +62,4 @@
     margin-top: -1px;
     position: relative;
     text-align: center;
-  }
-  
+}
